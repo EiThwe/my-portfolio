@@ -41,46 +41,37 @@ const Hero = ({ setActiveTab }) => {
           </div>
         </div>
 
-        <div className="w-full  text-white ">
-          <div className="h-[300px] sm:h-[240px] lg:h-[250px] xl:h-[200px] w-[90%]">
+        <div className="w-full  text-white mt-[20px]">
+          <div className=" lg:h-[250px] w-[90%]">
             <h6 className="uppercase text-[9px] font-bold tracking-[1.4px] mb-5">
               INTRODUCTION
             </h6>
-            <h3 className="ml-2 text-[30px] leading-[66.7px] mb-5 font-[400] font-mono">
+            <h3 className="ml-2 text-[26px] leading-[60.7px] mb-5 font-[400] font-mono">
               I'm{" "}
               <span
                 style={{
                   fontWeight: 400,
-                  fontFamily: "Anonymous Pro, monospace",
+                  // fontFamily: "Anonymous Pro, monospace",
                   letterSpacing: 3,
-                  fontSize: 60,
+                  fontSize: 40,
                   color: "white",
                 }}
               >
                 Thwe Thwe
               </span>
               ,{" "}
-              <TypeAnimation
-                sequence={[
-                  " A React Developer",
-                  3000,
-                  " A  Laravel Developer",
-                  3000,
-                  "A Full Stack Developer",
-                  3000,
-                ]}
-                wrapper="div"
-                cursor={true}
-                repeat={Infinity}
+              <span
                 style={{
                   display: "block",
                   color: "white",
                   fontWeight: 400,
-                  fontFamily: "Anonymous Pro, monospace",
+                  // fontFamily: "Anonymous Pro, monospace",
                   letterSpacing: 1,
-                  fontSize: 45,
+                  fontSize: 50,
                 }}
-              />
+              >
+                A Junior Web Developer
+              </span>
             </h3>
           </div>
           <hr className="w-8 mb-10" />
